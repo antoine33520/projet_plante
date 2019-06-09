@@ -1,4 +1,4 @@
-## UF Développement Logiciels: Projet Plante connectée
+# UF Développement Logiciels: Projet Plante connectée
 
 - Fonctionnement du site :
 

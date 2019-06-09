@@ -1,7 +1,7 @@
 // Code pour récupérer les valeurs des capteurs
 
-float Vout, RLDR, luminosite, temperature, humidite;
-int serial_hum, serial_temp, serial_lum, volt_hum, volt_temp;
+int serial_hum, serial_temp, serial_lum, volt_hum, volt_temp, luminosite, temperature, humidite;
+float Vout, RLDR;
 
 // Fonction setup(), appelée au démarrage de la carte Arduino
 void setup()
@@ -33,7 +33,7 @@ void loop()
   volt_temp /= 1023.0;
 
   // Calcul luminosité
-  Vout = (serial_lum * 0.0048828125);   // [Vout = ADC * (Vin / 1024)]
+  Vout = (serial_lum * 0.0048828125);   // [Vout = ADC * (Vin / 1023)]
   RLDR = (10000.0 * (5 - Vout)) / Vout; // [R-LDR =(R1 (Vin - Vout))/ Vout]
 
   //Valeurs cohérentes
