@@ -33,9 +33,9 @@ Afin de pouvoir réutiliser notre travail vous devez avoir :
 Maintenant les étapes à suivres sont les suivantes :
 
 - Importation du [dump](Ressources/SQL/plant_uf.sql) de la mariaDB
-- Si nécessaire modification du [programme](Ressources/Scripts/Arduino/sketch.ino) Arduino
+- Si nécessaire modification du [programme](Ressources/Scripts/Arduino/sketch/sketch.ino) Arduino
 - Compilation du programme et envoi sur la carte
-- Modification du [programme](Ressources\Scripts\Python\releves_capteurs.py) python
+- Modification du [programme](Ressources/Scripts/Python/releves_capteurs.py) python
 - Execution du programme
 
 Il ne reste plus qu'à vous connecter sur l'interface web pour ajouter vos plantes.
