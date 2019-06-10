@@ -20,8 +20,8 @@ def sensors(id_plante):
 
     plant_uf = mysql.connector.connect(
         host="192.168.10.200",
-        user="emmadrd912",
-        password="manonemma33",
+        user="plante",
+        password="Myypoa2UaxMFtwZY",
         database="plant_uf",
     )
 
@@ -39,10 +39,11 @@ def sensors(id_plante):
     plant_uf.commit()
     plant_uf.close()
 
-    // Print Values for debug
+    # Print Values for debug
     print(humidite)
     print(temperature)
     print(luminosite)
+
 
 while True:
     sensors(1)
