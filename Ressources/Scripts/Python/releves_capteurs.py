@@ -10,6 +10,8 @@ arduino.baudrate = 9600
 
 def sensors(id_plante):
     data = arduino.readline()
+    time.sleep(1)
+    data = arduino.readline()
     time.sleep(2)
     data = arduino.readline()
 
@@ -19,10 +21,7 @@ def sensors(id_plante):
     luminosite = pieces[2]
 
     plant_uf = mysql.connector.connect(
-        host="192.168.10.200",
-        user="plante",
-        password="Myypoa2UaxMFtwZY",
-        database="plant_uf",
+        host="localhost", user="emmadrd912", password="manonemma33", database="plant_uf"
     )
 
     curseur = plant_uf.cursor()
