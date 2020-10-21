@@ -1,7 +1,7 @@
 # Projet Plante connectée
 
 Le projet *Plante connectée* est le projet obligatoire de notre UF (Unité de Formation) Développement logiciels.
-Ce projet a été réalisé par  Antoine THYS et Emma DURAND étudiant Bachelor 1 Ynov Informatique au campus Ynov de Bordeaux.
+Ce projet a été réalisé par  Antoine THYS et Evan Baudier étudiant Bachelor 1 Ynov Informatique au campus Ynov de Bordeaux.
 
 Notre projet est constitué de 3 parties, un site web, une base de données ainsi qu'une partie capteurs.
 
